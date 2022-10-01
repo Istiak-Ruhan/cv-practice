@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(164, 177, 172);
+    font-family: font-family: 'Alkalami', serif;
+}
+#container{
+    max-width: 1000px;
+    background-color: darkcyan;
+    margin: 0 auto;
+    padding: 20px;
+
+}
+#profile-image{
+    height: 120px;
+    width: 100px;
+    border: 3px solid whitesmoke;
+    border-radius: 30px;
+    float: left;
+}
+#header-bio{
+    float: left;
+    padding: 30px;
+}
+h1,h2,h3,h4,h5,h6{
+    color: rgb(4, 56, 58);
+    
+}
+#header-contact{
+   float: right; 
+   padding: 30px;
+}
+#header-contact a{
+    text-decoration: none;
+    color: rgb(4, 56, 58) ;
+    font-weight: bold;
+}
+#header-contact a:hover{
+    text-decoration: underline;
+    color: aqua;
+}
+#div-clear{
+    clear: both;
+}
+hr{
+    
+    border: 3px solid whitesmoke;
+    width: 100%;
+    margin: 50px auto;
+   border-bottom: none;
+
+}
+#content-section{
+    margin-bottom: 30px;
+
+}
+.left-div{
+    float: left;
+    color:rgb(4, 56, 58) ;
+    width: 30%;
+    
+}
+.right-div{
+    float: left;
+    width: 70%;
+   
+}
+.common-hr{
+    border: solid whitesmoke 1px;
+    border-bottom: none;
+    width: 100%;
+    margin: 20px auto;
+}
+#edu-tamplet-left{
+    float: left;
+    width: 45%;
+}
+#edu-tamplet-right{
+    float: right;
+    width: 45%;
+}
+#references-left{
+    float: left;
+    width: 45%;
+}
+#references-right{
+  float: right;
+  width: 45%;  
+}
+.bottom-container{
+    background-color: black;
+    text-align: center;
+    padding: 10px;
+}
+.bottom-container a{
+    color: whitesmoke;
+    text-decoration: none;
+    margin: 20px;
+}
+.bottom-container p{
+    color: whitesmoke;
+    text-decoration: none;
+    margin: 20px;
+
+}
